@@ -3,7 +3,7 @@
 Use Set and Map to create a new Array without duplicates
 
 - Preserves JavaScript Objects with prop functions
-- Works on mixed arrays [Object, Array, Number, String]
+- Works on mixed Arrays [Object, Array, Number, String]
 - Works on JSON
 
 **params**: `originalArray` Array you want to remove duplicates from
