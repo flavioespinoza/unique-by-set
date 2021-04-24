@@ -16,5 +16,5 @@ Use Set and Map to create a new Array without duplicates
 const uniqueBySet = require('unique-by-set')
 
 console.log(uniqueBySet(['a', 'b', 'c', 'c', 'd', 'd', 'a']))
-=> [ 'a', 'b', 'c', 'd' ]
+// => [ 'a', 'b', 'c', 'd' ]
 ```
