@@ -58,6 +58,39 @@ console.log(uniqueNumbers)
 [ 0, 1, 2, 3, 4 ]
 ```
 
+### Arrays
+
+`arrays` is an Array of Arrays
+
+remove all duplicate Arrays in `arrays`
+
+```js
+let arrays = [
+  [1, 0],
+  [1, 1],
+  [1, 2],
+  [1, 3],
+  [1, 3],
+  [1, 4],
+  [1, 2],
+  [1, 2],
+]
+
+let uniqueArrays = uniqueBySet(arrays)
+
+console.log(uniqueArrays)
+```
+
+```shell
+[
+  [1, 0],
+  [1, 1],
+  [1, 2],
+  [1, 3],
+  [1, 4],
+]
+```
+
 ### JavaScript Objects
 
 `users` is an Array of JavaScript Objects
@@ -161,39 +194,6 @@ console.log(uniqueUsers)
     social: { instagram: 'salsa_flavio' },
     get: { preferences: [(λ: preferences)] },
   },
-]
-```
-
-### Arrays
-
-`arrays` is an Array of Arrays
-
-remove all duplicate Arrays in `arrays`
-
-```js
-let arrays = [
-  [1, 0],
-  [1, 1],
-  [1, 2],
-  [1, 3],
-  [1, 3],
-  [1, 4],
-  [1, 2],
-  [1, 2],
-]
-
-let uniqueArrays = uniqueBySet(arrays)
-
-console.log(uniqueArrays)
-```
-
-```shell
-[
-  [1, 0],
-  [1, 1],
-  [1, 2],
-  [1, 3],
-  [1, 4],
 ]
 ```
 
