@@ -9,6 +9,13 @@
  * @param originalArray Array you want to remove duplicates from
  * 
  * @returns Array with no duplicates
+ * 
+ * @example
+ * 
+ * const uniqueBySet = require('unique-by-set')
+ * 
+ * console.log(uniqueBySet(['a', 'b', 'c', 'c', 'd', 'd', 'a']))
+ * => [ 'a', 'b', 'c', 'd' ]
  * */
 module.exports.uniqueBySet = function(originalArray) {
   if (!Array.isArray(originalArray)) {
