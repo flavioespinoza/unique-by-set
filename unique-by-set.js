@@ -17,7 +17,7 @@
  * console.log(uniqueBySet(['a', 'b', 'c', 'c', 'd', 'd', 'a']))
  * => [ 'a', 'b', 'c', 'd' ]
  * */
-module.exports.uniqueBySet = function(originalArray) {
+function uniqueBySet(originalArray) {
   if (!Array.isArray(originalArray)) {
     throw new Error(`first argument must be an Array`)
   }
@@ -34,3 +34,5 @@ module.exports.uniqueBySet = function(originalArray) {
   })
   return result
 }
+
+module.exports = uniqueBySet;
