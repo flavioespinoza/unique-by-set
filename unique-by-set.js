@@ -5,34 +5,34 @@
  * - Preserves JavaScript Objects with prop functions
  * - Works on mixed arrays [Object, Array, Number, String]
  * - Works on JSON
- * 
+ *
  * @param originalArray Array you want to remove duplicates from
- * 
+ *
  * @returns Array with no duplicates
- * 
+ *
  * @example
- * 
+ *
  * const uniqueBySet = require('unique-by-set')
- * 
+ *
  * console.log(uniqueBySet(['a', 'b', 'c', 'c', 'd', 'd', 'a']))
  * => [ 'a', 'b', 'c', 'd' ]
  * */
 function uniqueBySet(originalArray) {
   if (!Array.isArray(originalArray)) {
-    throw new Error(`first argument must be an Array`)
+    throw new Error(`first argument must be an Array`);
   }
-  const result = []
-  const myMap = originalArray.map((obj) => {
-    if (typeof obj !== 'string') {
-      return JSON.stringify(obj)
+  const result = [];
+  const myMap = originalArray.map((item) => {
+    if (typeof item !== 'string') {
+      return JSON.stringify(item);
     }
-    return obj
-  })
-  new Set(myMap).forEach((s) => {
-    let index = myMap.indexOf(s)
-    result.push(originalArray[index])
-  })
-  return result
+    return item;
+  });
+  new Set(myMap).forEach((str) => {
+    let index = myMap.indexOf(str);
+    result.push(originalArray[index]);
+  });
+  return result;
 }
 
 module.exports = uniqueBySet;
