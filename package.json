@@ -1,6 +1,6 @@
 {
   "name": "unique-by-set",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Use Set and Map to create new Array with no duplicates.",
   "main": "unique-by-set.js",
   "scripts": {
