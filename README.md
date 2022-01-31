@@ -2,7 +2,7 @@
 
 Use Set and Map to create a new Array without duplicates
 
-- Preserves JavaScript Objects with prop functions
+- Preserves an Objects methods
 - Works on mixed Arrays [Object, Array, Number, String]
 - Works on JSON
 

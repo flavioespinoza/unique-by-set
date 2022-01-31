@@ -36,3 +36,15 @@ function uniqueBySet(originalArray) {
 }
 
 module.exports = uniqueBySet;
+
+
+for (let i = 0; i < array.length; i++) {
+
+  if (array[i] !== toMove) {
+    const temp = array[i];
+    array[i] = array[i - 1];
+    array[i - 1] = temp;
+  }
+  
+}
+
