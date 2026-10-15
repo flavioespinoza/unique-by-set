@@ -1,6 +1,6 @@
 {
   "name": "unique-by-set",
-  "version": "1.0.8",
+  "version": "1.0.10",
   "description": "Use Set and Map to create new Array with no duplicates.",
   "main": "unique-by-set.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/flavio.espinoza/unique-by-set.git"
+    "url": "git+https://github.com/flavioespinoza/unique-by-set.git"
   },
   "keywords": [
     "remove",
@@ -17,7 +17,7 @@
   "author": "Flavio Espinoza <flavio.espinoza@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/flavio.espinoza/unique-by-set/issues"
+    "url": "https://github.com/flavioespinoza/unique-by-set/issues"
   },
-  "homepage": "https://gitlab.com/flavio.espinoza/unique-by-set#readme"
+  "homepage": "https://github.com/flavioespinoza/unique-by-set#readme"
 }
